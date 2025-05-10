@@ -1,5 +1,13 @@
-from operator import itemgetter
+# Lab17_Angeerika-1.py
+# author: Angeerika
+# comment: This program catches errors made from retrieving data from the API
+# date: 05/10/25
 
+""" this program retrieves the top 30 articles from Hacker News and displays their titles, links, and number of comments.
+    It uses the Hacker News API to get the data and handles errors that may occur during the process."""
+
+    
+from operator import itemgetter
 import requests
 
 # Make an API call and check the response.
